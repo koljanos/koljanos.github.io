@@ -1,17 +1,16 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Electrical engineering student, Bauman Moscow State University
+  from: 2009
+  to: 2015
+  description: Enrolled to the IU-4 faculty of Bauman Moscow State University, 
+                my Diploma theme was - "Active stylus device for hand writeen input"
 
-- title: Software Engineer, Google, UK
+- title: Teacher, 1557 state school
+  from: 2015
+  to: 2018
+  description: First job after the Bauman State University, I was mainly teaching Technology, 
+                got introduced to IB
+
+- title: Teacher, Moscow Economical School
   from: 2018
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Working here as a STEM lab leader, CS teacher at MYP. State programme for CS and the Everyone Can COde for the technology lessons.
