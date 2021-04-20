@@ -2,7 +2,7 @@
 title: Rock paper scissors
 tags: [7й класс, everyone can code]
 style: fill
-color: primary
+color: info
 comments: true
 description: Карточка урока 20.04.2021
 ---
