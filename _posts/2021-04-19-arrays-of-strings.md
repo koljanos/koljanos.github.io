@@ -2,7 +2,7 @@
 title: Массивы строк в Python
 tags: [8й класс, информатика]
 style: fill
-color: primary
+color: success
 comments: true
 description: Карточка урока 20.04.2021
 ---
@@ -65,4 +65,6 @@ c = [c + d for c in 'list' if c != 'i' for d in 'spam' if d != 'a']
 #### Практическое задание
 
 Создайте список, в котором перечислены все карты всех мастей игральной колоды карт
+
+![Коды эмодзи для копирования]](https://emojipedia.org/search/?q=card+suit)
 

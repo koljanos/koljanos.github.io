@@ -2,7 +2,7 @@
 title: Что такое функции
 tags: [6й класс, everyone can code]
 style: fill
-color: primary
+color: dark
 comments: true
 description: Карточка урока 20.04.2021
 ---
