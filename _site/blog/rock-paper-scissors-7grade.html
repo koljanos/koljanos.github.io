@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Installation">
-  <meta property="og:description" content="Idiots and robots in school!">
+  <meta property="og:title" content="Rock paper scissors">
+  <meta property="og:description" content="Карточка урока 20.04.2021">
 
-  <title>Installation</title>
-  <meta name="description" content="Idiots and robots in school!">
+  <title>Rock paper scissors</title>
+  <meta name="description" content="Карточка урока 20.04.2021">
 
   
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -60,7 +60,7 @@
 
       <a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -77,46 +77,82 @@
 
 </nav>
   <div class="col-lg-10 mx-auto mt-5 post">
-  <h2 id="installation">Installation</h2>
+  <h1><b>Rock paper scissors</b></h1>
 
-<p>The following steps demonstrate how to use portfolYOU as <strong>GitHub Pages remote theme</strong>.</p>
+<p class="post-metadata text-muted">
+  19 April 2021 -  
+  <b>less than 1 min read time</b>
 
-<ol>
-  <li><a href="https://github.com/koljanos/koljanbos.github.io/zipball/gh-pages">Download</a> portfolYOU as .zip from official <a href="https://github.com/koljanos/koljanbos.github.io">repo</a> then extract it.</li>
-  <li>Rename <strong><code class="language-plaintext highlighter-rouge">portfolYOU-master/</code></strong> to <strong><code class="language-plaintext highlighter-rouge">&lt;your-username&gt;.github.io/</code></strong></li>
-  <li>Remove everything <strong>except</strong> the <strong><code class="language-plaintext highlighter-rouge">docs/</code></strong> directory.</li>
-  <li>Lift up the <strong><code class="language-plaintext highlighter-rouge">docs/</code></strong> directory’s content to the root directory <em>(i.e move them to <strong><code class="language-plaintext highlighter-rouge">&lt;your-username&gt;.github.io/</code></strong>)</em>.</li>
-  <li>Remove <strong>documentation</strong> stuff:
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#7%D0%B9-%D0%BA%D0%BB%D0%B0%D1%81%D1%81">
+      <span class="tag badge badge-pill text-primary border border-primary">7й класс</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#everyone-can-code">
+      <span class="tag badge badge-pill text-primary border border-primary">everyone can code</span>
+    </a>
+    </p>
+
+<p>Источник: <a href="https://books.apple.com/ru/book/everyone-can-code-puzzles/id1481279769">Everyone Can Code Puzzles</a></p>
+
+<h1 id="rock-paper-scissors-составление-правил-собственной-игры">Rock paper scissors составление правил собственной игры</h1>
+
+<h2 id="план-на-урок">План на урок:</h2>
+
+<ul>
+  <li>Разобраться с shared code</li>
+  <li>Добавить действия в готовый код</li>
+  <li>Решить задания
     <ul>
-      <li><strong><code class="language-plaintext highlighter-rouge">_elements/</code></strong></li>
-      <li><strong><code class="language-plaintext highlighter-rouge">documentation/</code></strong></li>
-      <li><strong><code class="language-plaintext highlighter-rouge">_config.yml</code></strong> : any line commented as <code class="language-plaintext highlighter-rouge"># For Documentation Only</code></li>
+      <li>Sharing code</li>
+      <li>Adding actions</li>
+      <li>Modifying Properties</li>
     </ul>
   </li>
-  <li>
-    <p>Your directory structure should be:</p>
+</ul>
 
-    <pre><code class="language-tree"> &lt;your-username&gt;.github.io/
- ├── _data/
- ├── _posts/
- ├── _projects/
- ├── pages/
- ├── _config.yml
- ├── .gitignore
- └── Gemfile
-</code></pre>
-  </li>
-  <li>Update <strong><code class="language-plaintext highlighter-rouge">_config.yml</code></strong> with your data <em>(follow the comments for more help)</em>.</li>
-  <li>Update your site content (posts, projects and about page).</li>
-  <li>Finally, test portfolYOU <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">locally</a> then <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">publish</a> it to <a href="https://pages.github.com/">GitHub Pages</a>.</li>
-  <li>
-    <p><em>[Optional]</em> To use a specific <a href="https://github.com/koljanos/koljanbos.github.io/releases">version</a> of portfolYOU <em>(defaults to latest version)</em>:</p>
+<h3 id="теория">Теория:</h3>
 
-    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="na">remote_theme</span><span class="pi">:</span> <span class="s">YoussefRaafatNasry/portfolYOU@v1.0.0</span>
-</code></pre></div>    </div>
-  </li>
-</ol>
+<blockquote>
+  <p><strong>Shared code</strong>:
+Код, размещенный в <em>shared code</em> доступен из всех других файлов, и всклюяает в себя все модули проекта</p>
+</blockquote>
 
+<p>В то время как код из <em>main</em> доступен только из него.</p>
+
+<p>Добавьте код</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">game</span><span class="o">.</span><span class="nf">addOpponent</span><span class="p">(</span><span class="s">"IGOR"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Запустите свой код и у вас появится новый оппонент.</p>
+
+<p>Если же вы добавите</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">game</span><span class="o">.</span><span class="n">roundPrize</span> <span class="o">=</span> <span class="s">"candy"</span>
+</code></pre></div></div>
+
+<p>То у вас добавится новый приз.</p>
+
+<h4 id="теоретическое-задание">Теоретическое задание</h4>
+
+<p>Посмотрите в <em>MyGame</em>, в ней будет функция <em>setupGame()</em> как вы думаете что означает слово <em>public</em> перед ней?</p>
+
+<h4 id="как-объявлять-функцию">Как объявлять функцию?</h4>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">turnLeft</span><span class="p">(){</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+
+
+<div class="pt-5">
+  
+</div>
 
 </div>
   </main>

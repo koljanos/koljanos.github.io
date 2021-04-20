@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Installation">
-  <meta property="og:description" content="Idiots and robots in school!">
+  <meta property="og:title" content="Что такое функции">
+  <meta property="og:description" content="Карточка урока 20.04.2021">
 
-  <title>Installation</title>
-  <meta name="description" content="Idiots and robots in school!">
+  <title>Что такое функции</title>
+  <meta name="description" content="Карточка урока 20.04.2021">
 
   
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -60,7 +60,7 @@
 
       <a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -77,46 +77,94 @@
 
 </nav>
   <div class="col-lg-10 mx-auto mt-5 post">
-  <h2 id="installation">Installation</h2>
+  <h1><b>Что такое функции</b></h1>
 
-<p>The following steps demonstrate how to use portfolYOU as <strong>GitHub Pages remote theme</strong>.</p>
+<p class="post-metadata text-muted">
+  19 April 2021 -  
+  <b>less than 1 min read time</b>
 
-<ol>
-  <li><a href="https://github.com/koljanos/koljanbos.github.io/zipball/gh-pages">Download</a> portfolYOU as .zip from official <a href="https://github.com/koljanos/koljanbos.github.io">repo</a> then extract it.</li>
-  <li>Rename <strong><code class="language-plaintext highlighter-rouge">portfolYOU-master/</code></strong> to <strong><code class="language-plaintext highlighter-rouge">&lt;your-username&gt;.github.io/</code></strong></li>
-  <li>Remove everything <strong>except</strong> the <strong><code class="language-plaintext highlighter-rouge">docs/</code></strong> directory.</li>
-  <li>Lift up the <strong><code class="language-plaintext highlighter-rouge">docs/</code></strong> directory’s content to the root directory <em>(i.e move them to <strong><code class="language-plaintext highlighter-rouge">&lt;your-username&gt;.github.io/</code></strong>)</em>.</li>
-  <li>Remove <strong>documentation</strong> stuff:
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#6%D0%B9-%D0%BA%D0%BB%D0%B0%D1%81%D1%81">
+      <span class="tag badge badge-pill text-primary border border-primary">6й класс</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#everyone-can-code">
+      <span class="tag badge badge-pill text-primary border border-primary">everyone can code</span>
+    </a>
+    </p>
+
+<p>Источник: <a href="https://books.apple.com/ru/book/everyone-can-code-puzzles/id1481279769">Everyone Can Code Puzzles</a></p>
+
+<h1 id="что-такое-функции">Что такое функции</h1>
+
+<h2 id="план-на-урок">План на урок:</h2>
+
+<ul>
+  <li>Понять что такое функция</li>
+  <li>Создать свою собственную команду - функцию</li>
+  <li>Решить задания
     <ul>
-      <li><strong><code class="language-plaintext highlighter-rouge">_elements/</code></strong></li>
-      <li><strong><code class="language-plaintext highlighter-rouge">documentation/</code></strong></li>
-      <li><strong><code class="language-plaintext highlighter-rouge">_config.yml</code></strong> : any line commented as <code class="language-plaintext highlighter-rouge"># For Documentation Only</code></li>
+      <li>Composing new behaviour</li>
+      <li>Creating a new function</li>
+      <li>Nesting patterns</li>
     </ul>
   </li>
-  <li>
-    <p>Your directory structure should be:</p>
+</ul>
 
-    <pre><code class="language-tree"> &lt;your-username&gt;.github.io/
- ├── _data/
- ├── _posts/
- ├── _projects/
- ├── pages/
- ├── _config.yml
- ├── .gitignore
- └── Gemfile
-</code></pre>
-  </li>
-  <li>Update <strong><code class="language-plaintext highlighter-rouge">_config.yml</code></strong> with your data <em>(follow the comments for more help)</em>.</li>
-  <li>Update your site content (posts, projects and about page).</li>
-  <li>Finally, test portfolYOU <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">locally</a> then <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">publish</a> it to <a href="https://pages.github.com/">GitHub Pages</a>.</li>
-  <li>
-    <p><em>[Optional]</em> To use a specific <a href="https://github.com/koljanos/koljanbos.github.io/releases">version</a> of portfolYOU <em>(defaults to latest version)</em>:</p>
+<h3 id="теория">Теория:</h3>
 
-    <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="na">remote_theme</span><span class="pi">:</span> <span class="s">YoussefRaafatNasry/portfolYOU@v1.0.0</span>
-</code></pre></div>    </div>
-  </li>
+<blockquote>
+  <p><strong>Функция</strong>:
+Набор команд, сгруппированных вместе, и названных определенным именем. Чтобы вызвать данный набор команд, достаточно использовать имя функции</p>
+</blockquote>
+
+<p><img src="https://i.imgflip.com/4lxpop.png" alt="Big brain" /></p>
+
+<h4 id="задание-теоретическое">Задание теоретическое:</h4>
+
+<ol>
+  <li>Поставьте таймер на iPad на 1 минуту</li>
+  <li>В заметках или в Pages попробуйте написать как можно больше функций, которые вы выполняете изо дня в день.</li>
+  <li>Разбейте каждую функцию на 3-4 простые действия</li>
+  <li>Обменяйтесь с соседом своими результатами</li>
 </ol>
 
+<p>Сможете ли вы сделать из всего этого супер-функцию? Если да - назовите ее</p>
+
+<h4 id="как-объявлять-функцию">Как объявлять функцию?</h4>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">turnLeft</span><span class="p">(){</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="nf">turnRight</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>Этот код можно использовать в <em>Composing new behaviour</em></p>
+</blockquote>
+
+<h4 id="как-вызвать-вашу-функцию">Как вызвать вашу функцию?</h4>
+
+<p>Вы уже вызывали функции, и весьма успешно, в swift достаточно написать название функции и поставить две круглые скобочки после него.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">turnLeft</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="домашнее-задание">Домашнее задание</h3>
+
+<ol>
+  <li>Найдите инструкцию для того, чтобы сложить что-то из листа А4</li>
+  <li>Запишите инструкцию в текстовом виде</li>
+  <li>Отметьте повторяющиеся действия</li>
+</ol>
+
+
+
+<div class="pt-5">
+  
+</div>
 
 </div>
   </main>
