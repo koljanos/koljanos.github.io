@@ -9,6 +9,8 @@ description: Карточка урока 20.04.2021
 
 Источник: [Everyone Can Code Puzzles](https://books.apple.com/ru/book/everyone-can-code-puzzles/id1481279769)
 
+**Inquiring and analyzing**: Analyze existing products
+
 # Что такое функции
 
 ## План на урок:
