@@ -73,5 +73,5 @@ c = [c + d for c in 'list' if c != 'i' for d in 'spam' if d != 'a']
 Крести | ♣️
 Пики | ♠️
 
-![Коды эмодзи для копирования]](https://emojipedia.org/search/?q=card+suit)
+[Коды эмодзи для копирования](https://emojipedia.org/search/?q=card+suit)
 
