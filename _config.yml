@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Николай Белиовский"
+  name             : &name "Николай Белиовский"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Страдаю тут"
+  bio              : &description "Idiots and robots at school!"
   location         : "МЭШ"
   email            :
   links:
@@ -186,6 +186,20 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Conversion
 markdown: kramdown
