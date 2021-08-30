@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : &name "Николай Белиовский"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://edu.mes.ru/uploads/staff_foto/185d1d5153a8d77997ae839d.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : &description "Idiots and robots at school!"
   location         : "МЭШ"
   email            :
