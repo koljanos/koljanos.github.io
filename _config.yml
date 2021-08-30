@@ -19,7 +19,7 @@ locale                   : "ru-RU"
 title                    : "Помощь в обучении"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Николай Белщиовский"
+name                     : "Николай Белиовский"
 description              : "Idiots and robots in school!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
