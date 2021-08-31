@@ -191,25 +191,16 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  informatics:
     output: true
     permalink: /:collection/:path/
-  pets:
+  swift:
     output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
 
-defaults:
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
 
 # Conversion
 markdown: kramdown
@@ -311,3 +302,24 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  - scope:
+      path: ""
+      type: informatics
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  - scope:
+      path: ""
+      type: swift
+    values:
+      layout: single
+      author_profile: false
+      share: true
