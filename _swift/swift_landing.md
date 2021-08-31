@@ -1,5 +1,5 @@
 ---
-title: "Baz Boom Identity"
+title: "Информационные технологии, главная"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 layout: collection
 permalink: /swift/
@@ -10,10 +10,10 @@ header:
   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
+  - title: "Информатика"
+    image: https://hsto.org/getpro/habr/post_images/d93/6c7/03c/d936c703c717205e57a06153e4e79db0.png
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Материалы предмета **Информационные технологии**"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
@@ -29,7 +29,7 @@ gallery:
 ---
 
 
-# Добро пожаловать на главную страницу материалов по курсу *Информационные технологии*
+# Добро пожаловать на главную страницу материалов по курсу **Информационные технологии**
 
 ## Ссылки на материалы по классам:
 
