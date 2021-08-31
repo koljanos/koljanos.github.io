@@ -11,10 +11,10 @@ header:
   teaser: /assets/images/informatics-header.jpg
   caption: "Источник: [**pch.vector**](https://ru.freepik.com/vectors/school)"
 sidebar:
-  - title: "Информационные технологии"
+  - title: "Информатика"
     image: /assets/images/informatics-landing.jpg
     image_alt: "logo"
-    text: "Материалы предмета **Информационные технологии**"
+    text: "Материалы предмета **Информатика**"
   - title: "Навигация"
     text: "Выберите свой класс"
 ---
