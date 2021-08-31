@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ru-RU"
 title                    : "INR AT SCHOOL"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Собрание образовательных материалов" # site tagline that appears below site title in masthead
 name                     : "Николай Белиовский"
 description              : "Idiots and robots in school!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
