@@ -7,8 +7,9 @@ collection: swift
 entries_layout: grid
 classes: wide
 header:
-  image: https://icdn.digitaltrends.com/image/digitaltrends/swift-playgrounds-coding-0001-700x467-c.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  image: /assets/images/swift-playgrounds.jpg
+  teaser: /assets/images/swift-playgrounds.jpg
+  caption: "Image credit: [**Apple**](https://apple.com)"
 sidebar:
   - title: "Информационные технологии"
     image: https://hsto.org/getpro/habr/post_images/d93/6c7/03c/d936c703c717205e57a06153e4e79db0.png
