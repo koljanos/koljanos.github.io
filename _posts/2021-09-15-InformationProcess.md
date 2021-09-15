@@ -5,9 +5,7 @@ tags:
   - ООП
 toc: true
 ---
-Источник 1: [Российская Электронная Школа](https://resh.edu.ru/subject/lesson/7316/conspect/251064/)
-
-Источник 2: [Библиотека уроков InternetUrok.ru](https://interneturok.ru/lesson/informatika/6-klass/chelovek-i-informatsiya/informatsiya-i-znaniya-myshlenie-i-ego-formy)
+Источник 1: [Российская Электронная Школа](https://resh.edu.ru/subject/lesson/7320/conspect/250959/)
 
 # Работа в классе:
 
